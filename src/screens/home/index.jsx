@@ -67,7 +67,6 @@ const TypistTitle = styled.span`
 
   @media (max-width: 480px) {
     font-size: 46px;
-    margin-bottom: 20px;
   }
 `;
 
