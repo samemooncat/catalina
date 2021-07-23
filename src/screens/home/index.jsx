@@ -14,6 +14,11 @@ const Typist = styled.div`
     position: absolute;
     top: 35%;
     left: 150px;
+
+    @media(max-width: 720px) {
+    left: 80px;
+    top: 25%;
+  }
 `;
 
 const TypistTitle = styled.span`
@@ -68,7 +73,7 @@ const Home = () => {
                 </div>
                 <TypistSubtitle>Loving yellow things and creating stuff sometimes.</TypistSubtitle>
                 <TypistDescription>I'm a software developer based in Colombia. I have profound interest on Front End development, design, 3D modeling and everything in between.</TypistDescription>
-                <TypistContact href="mailto:cgarces711@gmail.com"> <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-.4 4.25l-7.07 4.42c-.32.2-.74.2-1.06 0L4.4 8.25c-.25-.16-.4-.43-.4-.72 0-.67.73-1.07 1.3-.72L12 11l6.7-4.19c.57-.35 1.3.05 1.3.72 0 .29-.15.56-.4.72z"></path></svg>Say hello</TypistContact>
+                <TypistContact href="mailto:cgarces711@gmail.com"> <svg className="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-.4 4.25l-7.07 4.42c-.32.2-.74.2-1.06 0L4.4 8.25c-.25-.16-.4-.43-.4-.72 0-.67.73-1.07 1.3-.72L12 11l6.7-4.19c.57-.35 1.3.05 1.3.72 0 .29-.15.56-.4.72z"></path></svg>Say hello</TypistContact>
             </Typist>
         </HomeContainer>
     )
